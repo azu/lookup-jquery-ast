@@ -1,0 +1,26 @@
+{
+  "name": "lookup-jquery-ast",
+  "description": "AST lookup example",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/lookup-jquery-ast/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/lookup-jquery-ast.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/lookup-jquery-ast/issues"
+  },
+  "dependencies": {
+    "ast-types": "^0.5.5",
+    "esprima": "^1.2.2"
+  }
+}
